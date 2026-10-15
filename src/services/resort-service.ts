@@ -15,6 +15,7 @@ import {
   stayPolicy,
   storyImages,
   careersHeroImage,
+  luxeImages,
 } from "@/data/mock-resort-data";
 import type {
   CorporatePartner,
@@ -158,13 +159,14 @@ export interface MediaCollections {
   story: ResortImage[];
   mice: { wedding: ResortImage[]; mice: ResortImage[] };
   careersHero: ResortImage;
+  luxe: typeof luxeImages;
 }
 
 export async function getMediaCollections(): Promise<MediaCollections> {
   "use cache";
   cacheLife("days");
   cacheTag("media");
-  return { story: storyImages, mice: miceShowcaseImages, careersHero: careersHeroImage };
+  return { story: storyImages, mice: miceShowcaseImages, careersHero: careersHeroImage, luxe: luxeImages };
 }
 
 export async function getLandingPageData(): Promise<LandingPageData> {

@@ -1489,6 +1489,13 @@ export const storyImages: ResortImage[] = [
   img("forest", l("Tán cây cổ thụ", "Ancient tree canopy", "고목 숲", "古树林荫"), 1000),
 ];
 
+export const luxeImages = {
+  hero: img("bungalowGardenPool", l("Hồ bơi giữa vườn nhiệt đới", "Pool in the tropical gardens", "열대 정원 속 수영장", "热带花园中的泳池"), 2400),
+  wedding: img("weddingLongTable", l("Bàn tiệc cưới tại Sao Mai Center", "Wedding banquet at Sao Mai Center", "사오마이 센터 웨딩 연회", "Sao Mai Center 婚宴"), 1800),
+  conference: img("conferenceAudience", l("Hội nghị doanh nghiệp", "Corporate conference", "기업 컨퍼런스", "企业会议"), 1800),
+  heritage: img("poolNight", l("Hồ bơi Sao Mai lúc chạng vạng", "Sao Mai pool at dusk", "해질녘 사오마이 수영장", "黄昏时分的 Sao Mai 泳池"), 2400),
+};
+
 export const careersHeroImage: ResortImage = img(
   "teamBuilding",
   l("Đội ngũ Sao Mai Phú Mỹ", "The Sao Mai Phu My team", "사오마이 푸미 팀", "Sao Mai Phu My 团队"),
