@@ -164,14 +164,10 @@ export type EventServiceOption =
   | "TEAM_BUILDING_MC";
 
 /* ------------------------------------------------------------------ */
-/* Services (Dining, Sports, Wellness)                                 */
+/* Services (Dining, Sports, Pool)                                     */
 /* ------------------------------------------------------------------ */
 
-export type ServiceCategory =
-  | "DINING"
-  | "SPORTS"
-  | "POOL_NATURE"
-  | "WELLNESS_ENTERTAINMENT";
+export type ServiceCategory = "DINING" | "SPORTS" | "POOL_NATURE";
 
 export type ServiceCtaAction = "TABLE_BOOKING" | "COURT_BOOKING" | "STAY_BOOKING" | "NONE";
 
@@ -189,7 +185,7 @@ export interface ResortService extends BaseEntity {
 }
 
 /** Individual facility shown on the `/dich-vu` page; `slug` doubles as its anchor id. */
-export type FacilityKind = "RESTAURANT_BAR" | "POOL" | "TENNIS_PICKLEBALL" | "GOLF" | "KARAOKE" | "GYM_SPA";
+export type FacilityKind = "RESTAURANT_BAR" | "POOL" | "TENNIS_PICKLEBALL" | "GOLF";
 
 export interface ResortFacility extends BaseEntity {
   kind: FacilityKind;
@@ -341,13 +337,7 @@ export interface EventInquiryInput {
   locale: Locale;
 }
 
-export type ServiceReservationKind =
-  | "VIP_ROOM"
-  | "RESTAURANT_TABLE"
-  | "KARAOKE"
-  | "PICKLEBALL"
-  | "TENNIS"
-  | "GOLF";
+export type ServiceReservationKind = "VIP_ROOM" | "RESTAURANT_TABLE" | "PICKLEBALL" | "TENNIS" | "GOLF";
 
 export interface ServiceReservationInput {
   kind: ServiceReservationKind;

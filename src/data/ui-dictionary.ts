@@ -453,7 +453,6 @@ export const ui = {
   serviceKinds: {
     VIP_ROOM: l("Phòng VIP riêng", "Private VIP room", "프라이빗 VIP 룸", "私人VIP包间"),
     RESTAURANT_TABLE: l("Bàn nhà hàng", "Restaurant table", "레스토랑 테이블", "餐厅餐桌"),
-    KARAOKE: l("Phòng Karaoke", "Karaoke room", "노래방", "KTV包间"),
     PICKLEBALL: l("Sân Pickleball", "Pickleball court", "피클볼 코트", "匹克球场"),
     TENNIS: l("Sân Tennis", "Tennis court", "테니스 코트", "网球场"),
     GOLF: l("Sân tập Golf", "Golf practice range", "골프 연습장", "高尔夫练习场"),
@@ -467,10 +466,10 @@ export const ui = {
       "Sao Mai服务与设施",
     ),
     subtitle: l(
-      "Nhà hàng, hồ bơi, thể thao, golf, karaoke và chăm sóc sức khỏe – tất cả trong khuôn viên 10,5ha.",
-      "Dining, pool, sports, golf, karaoke and wellness – all within our 10.5-hectare grounds.",
-      "레스토랑, 수영장, 스포츠, 골프, 노래방, 웰니스까지 – 모두 10.5헥타르 부지 안에.",
-      "餐饮、泳池、运动、高尔夫、KTV与康体——尽在10.5公顷园区之内。",
+      "Nhà hàng, hồ bơi, thể thao và golf – tất cả trong khuôn viên 10,5ha.",
+      "Dining, pool, sports and golf – all within our 10.5-hectare grounds.",
+      "레스토랑, 수영장, 스포츠, 골프까지 – 모두 10.5헥타르 부지 안에.",
+      "餐饮、泳池、运动与高尔夫——尽在10.5公顷园区之内。",
     ),
     viewAll: l("Xem tất cả dịch vụ", "View all services", "모든 서비스 보기", "查看全部服务"),
     contactCta: l("Liên hệ đặt dịch vụ", "Contact to book", "예약 문의", "联系预订"),

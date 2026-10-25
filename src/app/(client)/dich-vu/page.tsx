@@ -5,7 +5,7 @@ import { getResortFacilities } from "@/services/resort-service";
 export const metadata: Metadata = {
   title: "Dịch vụ & Tiện ích",
   description:
-    "Nhà hàng & Bar, hồ bơi, Tennis & Pickleball, sân tập Golf, Karaoke, Gym & Spa tại Sao Mai Phú Mỹ Resort.",
+    "Nhà hàng & Bar, hồ bơi, Tennis & Pickleball và sân tập Golf tại Sao Mai Phú Mỹ Resort.",
 };
 
 export default async function ServicesPage() {

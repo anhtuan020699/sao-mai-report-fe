@@ -14,7 +14,6 @@ import type { FacilityKind, ResortFacility, ServiceReservationKind } from "@/typ
 
 const RESERVATION_KIND: Partial<Record<FacilityKind, ServiceReservationKind>> = {
   RESTAURANT_BAR: "RESTAURANT_TABLE",
-  KARAOKE: "KARAOKE",
   TENNIS_PICKLEBALL: "PICKLEBALL",
   GOLF: "GOLF",
 };

@@ -1077,7 +1077,7 @@ function EventRfpModal({ halls, settings, prefill, open, onOpenChange }: EventRf
 /* ------------------------------------------------------------------ */
 
 const SERVICE_KINDS: Record<ServiceModalMode, ServiceReservationKind[]> = {
-  DINING: ["VIP_ROOM", "RESTAURANT_TABLE", "KARAOKE"],
+  DINING: ["VIP_ROOM", "RESTAURANT_TABLE"],
   SPORTS: ["PICKLEBALL", "TENNIS", "GOLF"],
 };
 

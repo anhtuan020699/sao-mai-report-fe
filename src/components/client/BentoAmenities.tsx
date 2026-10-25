@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowUpRight, Clock, Dumbbell, Trophy, UtensilsCrossed, WavesLadder, type LucideIcon } from "lucide-react";
+import { ArrowUpRight, Clock, Trophy, UtensilsCrossed, WavesLadder, type LucideIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useResortModals } from "@/components/client/InteractiveModals";
@@ -16,8 +16,7 @@ import type { ResortService, ServiceCategory } from "@/types/resort";
 const LAYOUT: Record<ServiceCategory, { className: string; size: "xl" | "wide" | "sm"; icon: LucideIcon; anchor?: string }> = {
   DINING: { className: "lg:col-span-2 lg:row-span-2", size: "xl", icon: UtensilsCrossed },
   SPORTS: { className: "lg:col-span-2", size: "wide", icon: Trophy, anchor: SECTION_IDS.amenities },
-  POOL_NATURE: { className: "lg:col-span-1", size: "sm", icon: WavesLadder },
-  WELLNESS_ENTERTAINMENT: { className: "lg:col-span-1", size: "sm", icon: Dumbbell },
+  POOL_NATURE: { className: "lg:col-span-2", size: "wide", icon: WavesLadder },
 };
 
 export function BentoAmenities({ services }: { services: ResortService[] }) {
